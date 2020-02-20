@@ -3,7 +3,7 @@
 ### Problem ###
 For an artwork, recognizing information like visual style, medium, creation year is still a challenging problem and requires expertise of connoisseurship. In this exercise, we investigate the application of machine learning for identification of visual style​
 
-|<img src="docs/example-impressionism.jpg" height="250" width="250"> | <img src="docs/example-realism.jpg" height="250" width="250">
+|<img src="docs/example-impressionism.jpg" height="400" width="400"> | <img src="docs/example-realism.jpg" height="400" width="400">
 |:---:|:---:
 | Impressionism | Realism  |
 
@@ -16,7 +16,7 @@ We evaluated ResNet50 and used transfer learning for the stated purposes. The mo
 ### Methodology
 Our model was built on top of state-of-the art implementation of Deep-CNN aka ResNet50. The pre-trained model consisted of two parts; Feature extractor and classifier. ​
 
-<img src="docs/cnn-arch.jpg">
+<img src="docs/cnn-arch.jpg" width="600">
 
 As first step, feature extractor was kept freeze, and the last layer was fine-tuned. This layer was responsible for classification; hence it was retrained with 10 most frequent classes. The results were further improved in the next step when instead of fine-tuning last layer, we tried to retrain all fully connected layers of classifier, while increasing number of neurons/filters.​
 
