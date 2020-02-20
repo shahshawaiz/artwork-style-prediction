@@ -4,7 +4,7 @@
 For an artwork, recognizing information like visual style, medium, creation year is still a challenging problem and requires expertise of connoisseurship. In this exercise, we investigate the application of machine learning for identification of visual style​
 
 |<img src="docs/example-impressionism.jpg" height="250" width="250"> | <img src="docs/example-realism.jpg" height="250" width="250">
-|:---:|:---:|:---:
+|:---:|:---:
 | Impressionism | Realism  |
 
 ### Related Work ###
@@ -22,7 +22,7 @@ As first step, feature extractor was kept freeze, and the last layer was fine-tu
 
 Below are the snapshots taken from feature extractor of the famous painting, The Scream;
 
-|<img src="docs/org.jpg" height="100" width="100"> | <img src="docs/filter.png" height="100" width="100"> | <img src="docs/activation-map.png" height="100" width="100">
+|<img src="docs/org.jpg" height="300" width="300"> | <img src="docs/filter.png" height="300" width="300"> | <img src="docs/activation-map.png" height="300" width="300">
 |:---:|:---:|:---:
 | Orignal | Filter  | Activation Map |
 
