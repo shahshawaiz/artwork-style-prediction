@@ -20,7 +20,7 @@ from io import BytesIO
 
 import urllib.parse
 
-PATH_MODEL = 'models/m-b.h5'
+PATH_MODEL = 'trained_models/m-e.h5'
 
 def predict(img_path):
     model = load_model(PATH_MODEL)
